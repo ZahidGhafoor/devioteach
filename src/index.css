@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.hrmodification {
+  border-width: 1px 0 0 0;
+  border-style: solid;
+  border-color: #444;
+  margin: 5px 0px;
+}
+.box-sha {
+  border: 2px solid rgb(125 125 125 / 60%);
+  border-radius: 12px;
+}
+.no-box-sha {
+  box-shadow: none;
+}
+hr:not(:last-child) {
+  margin-bottom: 0.51875rem !important;
+}
+hr:not(:first-child) {
+  margin-top: 1.51875rem !important;
+}
+.size {
+  color: white !important;
+}
+.chat2 .floating-chat .chat .footer .text-box {
+  border-radius: 3px;
+  background: rgba(148, 148, 148, 0.2);
+  min-height: 100%;
+  width: 100%;
+  margin-right: 5px;
+  color: #fff !important ;
+  overflow-y: auto;
+  padding: 2px 5px;
+  margin-top: 9px;
+  margin-left: 20px;
+  width: 170px;
+  box-shadow: none;
+  outline: none;
+}
+.text-field > .MuiOutlinedInput-root > input {
+  padding: 13.5px 14px;
+  margin-top: -2px;
+}
+.ll > .MuiTextField-root {
+  width: 97% !important;
+}
+.hell > .ant-modal-content > .ant-modal-header {
+  background: #000 !important;
+}
+.hell > .ant-modal-content > .ant-modal-close {
+  color: white !important;
+  top: -5px !important;
+}
+.hell > .ant-modal-content > .ant-modal-header > .ant-modal-title {
+  color: white !important;
+  font-weight: 800;
+}
+.w-100 > .ant-input {
+  border-radius: 5px;
+}
+.ant-modal-wrap {
+  top: 50px !important;
+}
+@media (max-width: 600px) {
+  .hell {
+    top: 1px !important;
+  }
+  .ant-modal-wrap {
+    top: 116px !important;
+  }
+}
+.none-mobile > .video {
+  width: 100% !important;
+}

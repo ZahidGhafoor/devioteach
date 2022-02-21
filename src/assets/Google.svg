@@ -1,0 +1,21 @@
+<svg id="Google_" data-name="Google " xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 47 47">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-opacity: 0;
+        stroke: #000;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        font-size: 20px;
+        fill: #090909;
+        text-anchor: middle;
+        font-family: FontAwesome;
+      }
+    </style>
+  </defs>
+  <circle id="Circle" class="cls-1" cx="23.5" cy="23.5" r="20"/>
+  <text id="Google" class="cls-2" x="22.5" y="31.502"></text>
+</svg>

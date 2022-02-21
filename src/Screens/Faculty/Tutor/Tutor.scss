@@ -1,0 +1,88 @@
+.tutor__container{
+    background-color: #ffcc33;
+    padding: 4rem 1rem;
+    .bottom__header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .header__brush{
+            width: 315px;
+            height: 60px;
+            @media screen and (max-width:450px){
+                width: 325px;
+
+    
+            }
+
+        }
+        .brush__text{
+            font-size: 32px;
+            font-weight: 700;
+            margin-top: -55px;
+            margin-left: -74px;
+        }
+        .para{
+            margin-top: 10px;
+            margin-left: -50px;
+            font-weight: 600;
+            font-size: 13px;
+        }
+
+    }
+    .cards{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+        gap: 3rem;
+        flex-wrap: wrap;
+    }
+
+    .tutor__card{
+        background-color: white;
+        height: 230px;
+        width: 200px;
+        padding: 15px 00px;
+        border-radius: 7px;
+        box-shadow: 0px 0px 11px 1px #00000061;
+        .dots{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            .dot{
+                height: 12px;
+                width: 12px;
+                border-radius: 99px;
+                background-color: #ffcc33;
+            }
+        }
+        .img{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 2rem 0;
+            margin-bottom: 1rem;
+            .card__icon{
+                height: 45px;
+               fill:red;
+            }
+        }
+        .title{
+            font-size: 16px;
+            font-weight: 700;
+            text-align: center;
+        }
+        .borderr{
+            height: 2px;
+            width: 30px;
+            background-color: #ffcc33;
+            margin: 1rem auto;
+        }
+        .total{
+            font-size: 13px;
+            font-weight: 700;
+            text-align: center;
+        }
+      }
+    }

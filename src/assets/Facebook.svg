@@ -1,0 +1,21 @@
+<svg id="Facebook" xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 47 47">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #000;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        font-size: 20px;
+        fill: #090909;
+        text-anchor: middle;
+        font-family: FontAwesome5BrandsRegular;
+      }
+    </style>
+  </defs>
+  <circle id="Ellipse_1_copy_13" data-name="Ellipse 1 copy 13" class="cls-1" cx="23.5" cy="23.5" r="20"/>
+  <text id="_" data-name="" class="cls-2" x="23.499" y="31.5"></text>
+</svg>

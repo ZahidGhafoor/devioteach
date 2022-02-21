@@ -1,0 +1,75 @@
+.rating__container{
+    margin: 4rem 1rem;
+    .rating__header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .brush__text{
+            font-size: 24px;
+            font-weight: 700;
+            text-align: center;
+
+            span{
+                color: #ffcc33;
+            }
+        }
+        .para{
+            margin-top: 5px;
+            font-weight: 600;
+            font-size: 13px;
+        }
+
+.header__brush{
+    
+    height: 10px;
+    margin-top: 5px;
+
+}
+    }
+
+    
+        .rating__body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem 8rem;
+            margin: 0 auto;
+            margin-top: 2rem;
+            max-width: 1100px;
+            flex-wrap: wrap;
+            .bottom__card {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              .card__star {
+                height: 185px;
+                width: 187px;
+              }
+              .name {
+                margin-top: 18px;
+                font-size: 18px;
+                font-weight: 700;
+              }
+              .position {
+                font-weight: 700;
+                font-size: 11px;
+              }
+              .social {
+                display: flex;
+                gap: 0.9rem;
+                .twitter {
+                  height: 23px;
+                  margin: 10px 0;
+                }
+              }
+            }
+          
+    }
+}
+.empty{
+    height: 400px;
+    background-color: #ffcc33;
+
+}

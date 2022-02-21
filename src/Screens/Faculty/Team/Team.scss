@@ -1,0 +1,111 @@
+.team__container {
+  .upper {
+    position: relative;
+    .img {
+      .upper__img {
+        height: 190px;
+        width: 100%;
+        @media screen and (max-width: 650px) {
+          object-fit: cover;
+        }
+      }
+    }
+    .img__text {
+      display: flex;
+      align-items: center;
+      position: absolute;
+      top: 4rem;
+      left: 9rem;
+      gap: 0.7rem;
+      @media screen and (max-width: 650px) {
+        left: 2rem;
+      }
+      .text {
+        font-size: 18px;
+        font-weight: 700;
+        color: white;
+      }
+      .text__img {
+        height: 12px;
+      }
+    }
+  }
+  .bottom {
+    margin: 0 1rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    @media screen and (max-width: 650px) {
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+    .bottom__header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      .header__brush {
+        width: 365px;
+        height: 60px;
+        @media screen and (max-width: 450px) {
+          width: 325px;
+        }
+      }
+      .brush__text {
+        font-size: 32px;
+        font-weight: 700;
+        margin-top: -55px;
+        margin-left: -74px;
+      }
+      .para {
+        margin-top: 10px;
+        margin-left: -50px;
+        font-weight: 600;
+        font-size: 13px;
+      }
+    }
+    .bottom__body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5rem;
+      margin-top: 2rem;
+      @media screen and (max-width: 650px) {
+        flex-direction: column;
+        gap: 3rem;
+      }
+      .bottom__card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .card__star {
+          height: 230px;
+          width: 250px;
+        }
+        .name {
+          margin-top: 12px;
+          font-size: 20px;
+          font-weight: 700;
+        }
+        .position {
+          font-weight: 600;
+          font-size: 13px;
+        }
+        .social {
+          display: flex;
+          gap: 0.9rem;
+          .twitter {
+            height: 30px;
+            margin: 10px 0;
+          }
+        }
+        .desc {
+          font-size: 12px;
+          max-width: 459px;
+          text-align: center;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
