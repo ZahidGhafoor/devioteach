@@ -12,7 +12,6 @@ import Button from '@mui/material/Button';
 
 import MenuIcon from '@mui/icons-material/Menu';
 
-import CancelIcon from '@mui/icons-material/Cancel';
 import CloseIcon from '@mui/icons-material/Close';
 
 const Mobile = () => {
